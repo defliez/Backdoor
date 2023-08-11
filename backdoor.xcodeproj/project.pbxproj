@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9D9F8FB2A83146200676B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9F8FA2A83146200676B0C /* AppDelegate.swift */; };
-		A9D9F8FD2A83146200676B0C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9D9F8FC2A83146200676B0C /* GameScene.sks */; };
-		A9D9F8FF2A83146200676B0C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9D9F8FE2A83146200676B0C /* Actions.sks */; };
-		A9D9F9012A83146200676B0C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9F9002A83146200676B0C /* GameScene.swift */; };
-		A9D9F9032A83146200676B0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9F9022A83146200676B0C /* GameViewController.swift */; };
+		22C08E6E5DC83B7FDE2F28B8 /* Pods_backdoorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471DC8B4231354C6CDB1C4ED /* Pods_backdoorTests.framework */; };
+		33695C3B257F530164E3C795 /* Pods_backdoor_backdoorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA09F64F80E4CC0CFFA763 /* Pods_backdoor_backdoorUITests.framework */; };
+		A944941B2A85A4EC00261B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94494142A85A4EC00261B15 /* Assets.xcassets */; };
+		A944941C2A85A4EC00261B15 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94494152A85A4EC00261B15 /* GameScene.swift */; };
+		A944941D2A85A4EC00261B15 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A94494162A85A4EC00261B15 /* Actions.sks */; };
+		A944941E2A85A4EC00261B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94494172A85A4EC00261B15 /* AppDelegate.swift */; };
+		A944941F2A85A4EC00261B15 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94494182A85A4EC00261B15 /* GameViewController.swift */; };
+		A94494212A85A4EC00261B15 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A944941A2A85A4EC00261B15 /* GameScene.sks */; };
 		A9D9F9062A83146200676B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D9F9042A83146200676B0C /* Main.storyboard */; };
-		A9D9F9082A83146500676B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D9F9072A83146500676B0C /* Assets.xcassets */; };
 		A9D9F90B2A83146500676B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D9F9092A83146500676B0C /* LaunchScreen.storyboard */; };
 		A9D9F9152A83146500676B0C /* backdoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9F9142A83146500676B0C /* backdoorTests.swift */; };
 		A9D9F91F2A83146500676B0C /* backdoorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9F91E2A83146500676B0C /* backdoorUITests.swift */; };
 		A9D9F9212A83146500676B0C /* backdoorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9F9202A83146500676B0C /* backdoorUITestsLaunchTests.swift */; };
+		E7A738CC29BB1E33494EEB0F /* Pods_backdoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094533DC7E94E03409104630 /* Pods_backdoor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,20 +41,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094533DC7E94E03409104630 /* Pods_backdoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backdoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		471DC8B4231354C6CDB1C4ED /* Pods_backdoorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backdoorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A637390772E6675C643DFF4 /* Pods-backdoor-backdoorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backdoor-backdoorUITests.debug.xcconfig"; path = "Target Support Files/Pods-backdoor-backdoorUITests/Pods-backdoor-backdoorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B7CA23C73F2D84A87E9F8EB /* Pods-backdoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backdoor.debug.xcconfig"; path = "Target Support Files/Pods-backdoor/Pods-backdoor.debug.xcconfig"; sourceTree = "<group>"; };
+		A51194E3CDD7CB89E52D51C6 /* Pods-backdoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backdoor.release.xcconfig"; path = "Target Support Files/Pods-backdoor/Pods-backdoor.release.xcconfig"; sourceTree = "<group>"; };
+		A94494142A85A4EC00261B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		A94494152A85A4EC00261B15 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../.Trash/GameScene.swift; sourceTree = "<group>"; };
+		A94494162A85A4EC00261B15 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Actions.sks; path = ../../../.Trash/Actions.sks; sourceTree = "<group>"; };
+		A94494172A85A4EC00261B15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		A94494182A85A4EC00261B15 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../../../.Trash/GameViewController.swift; sourceTree = "<group>"; };
+		A944941A2A85A4EC00261B15 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../.Trash/GameScene.sks; sourceTree = "<group>"; };
 		A9D9F8F72A83146200676B0C /* backdoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backdoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9D9F8FA2A83146200676B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9D9F8FC2A83146200676B0C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A9D9F8FE2A83146200676B0C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		A9D9F9002A83146200676B0C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		A9D9F9022A83146200676B0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A9D9F9052A83146200676B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9D9F9072A83146500676B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D9F90A2A83146500676B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D9F9102A83146500676B0C /* backdoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D9F9142A83146500676B0C /* backdoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backdoorTests.swift; sourceTree = "<group>"; };
 		A9D9F91A2A83146500676B0C /* backdoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D9F91E2A83146500676B0C /* backdoorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backdoorUITests.swift; sourceTree = "<group>"; };
 		A9D9F9202A83146500676B0C /* backdoorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backdoorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E82E577221CDEA93D94A2AC7 /* Pods-backdoorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backdoorTests.release.xcconfig"; path = "Target Support Files/Pods-backdoorTests/Pods-backdoorTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED372D82C54F3C52CE7C1F0A /* Pods-backdoorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backdoorTests.debug.xcconfig"; path = "Target Support Files/Pods-backdoorTests/Pods-backdoorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5EA09F64F80E4CC0CFFA763 /* Pods_backdoor_backdoorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backdoor_backdoorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3FD1EA91ADE00E43A4818 /* Pods-backdoor-backdoorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backdoor-backdoorUITests.release.xcconfig"; path = "Target Support Files/Pods-backdoor-backdoorUITests/Pods-backdoor-backdoorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A738CC29BB1E33494EEB0F /* Pods_backdoor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C08E6E5DC83B7FDE2F28B8 /* Pods_backdoorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +87,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33695C3B257F530164E3C795 /* Pods_backdoor_backdoorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69CDFE214E8AEA19B0F3E788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094533DC7E94E03409104630 /* Pods_backdoor.framework */,
+				F5EA09F64F80E4CC0CFFA763 /* Pods_backdoor_backdoorUITests.framework */,
+				471DC8B4231354C6CDB1C4ED /* Pods_backdoorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9D9F8EE2A83146200676B0C = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +111,8 @@
 				A9D9F9132A83146500676B0C /* backdoorTests */,
 				A9D9F91D2A83146500676B0C /* backdoorUITests */,
 				A9D9F8F82A83146200676B0C /* Products */,
+				E1638268788641B0D153B521 /* Pods */,
+				69CDFE214E8AEA19B0F3E788 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +129,13 @@
 		A9D9F8F92A83146200676B0C /* backdoor */ = {
 			isa = PBXGroup;
 			children = (
-				A9D9F8FA2A83146200676B0C /* AppDelegate.swift */,
-				A9D9F8FC2A83146200676B0C /* GameScene.sks */,
-				A9D9F8FE2A83146200676B0C /* Actions.sks */,
-				A9D9F9002A83146200676B0C /* GameScene.swift */,
-				A9D9F9022A83146200676B0C /* GameViewController.swift */,
+				A944941A2A85A4EC00261B15 /* GameScene.sks */,
+				A94494162A85A4EC00261B15 /* Actions.sks */,
+				A94494172A85A4EC00261B15 /* AppDelegate.swift */,
+				A94494142A85A4EC00261B15 /* Assets.xcassets */,
+				A94494152A85A4EC00261B15 /* GameScene.swift */,
+				A94494182A85A4EC00261B15 /* GameViewController.swift */,
 				A9D9F9042A83146200676B0C /* Main.storyboard */,
-				A9D9F9072A83146500676B0C /* Assets.xcassets */,
 				A9D9F9092A83146500676B0C /* LaunchScreen.storyboard */,
 			);
 			path = backdoor;
@@ -131,6 +158,19 @@
 			path = backdoorUITests;
 			sourceTree = "<group>";
 		};
+		E1638268788641B0D153B521 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B7CA23C73F2D84A87E9F8EB /* Pods-backdoor.debug.xcconfig */,
+				A51194E3CDD7CB89E52D51C6 /* Pods-backdoor.release.xcconfig */,
+				5A637390772E6675C643DFF4 /* Pods-backdoor-backdoorUITests.debug.xcconfig */,
+				F9E3FD1EA91ADE00E43A4818 /* Pods-backdoor-backdoorUITests.release.xcconfig */,
+				ED372D82C54F3C52CE7C1F0A /* Pods-backdoorTests.debug.xcconfig */,
+				E82E577221CDEA93D94A2AC7 /* Pods-backdoorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9D9F9242A83146500676B0C /* Build configuration list for PBXNativeTarget "backdoor" */;
 			buildPhases = (
+				5611771335247D1EB54CB906 /* [CP] Check Pods Manifest.lock */,
 				A9D9F8F32A83146200676B0C /* Sources */,
 				A9D9F8F42A83146200676B0C /* Frameworks */,
 				A9D9F8F52A83146200676B0C /* Resources */,
+				CB4AF8C9E8ADA77266C6AAA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9D9F9272A83146500676B0C /* Build configuration list for PBXNativeTarget "backdoorTests" */;
 			buildPhases = (
+				7FDFE2764AF8F03F8621EFEC /* [CP] Check Pods Manifest.lock */,
 				A9D9F90C2A83146500676B0C /* Sources */,
 				A9D9F90D2A83146500676B0C /* Frameworks */,
 				A9D9F90E2A83146500676B0C /* Resources */,
@@ -173,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9D9F92A2A83146500676B0C /* Build configuration list for PBXNativeTarget "backdoorUITests" */;
 			buildPhases = (
+				D086F2B10890D8223C893692 /* [CP] Check Pods Manifest.lock */,
 				A9D9F9162A83146500676B0C /* Sources */,
 				A9D9F9172A83146500676B0C /* Frameworks */,
 				A9D9F9182A83146500676B0C /* Resources */,
+				0BB1D3D533CB055AE1B75DCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,11 +280,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A944941D2A85A4EC00261B15 /* Actions.sks in Resources */,
 				A9D9F9062A83146200676B0C /* Main.storyboard in Resources */,
-				A9D9F8FD2A83146200676B0C /* GameScene.sks in Resources */,
-				A9D9F9082A83146500676B0C /* Assets.xcassets in Resources */,
 				A9D9F90B2A83146500676B0C /* LaunchScreen.storyboard in Resources */,
-				A9D9F8FF2A83146200676B0C /* Actions.sks in Resources */,
+				A944941B2A85A4EC00261B15 /* Assets.xcassets in Resources */,
+				A94494212A85A4EC00261B15 /* GameScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,14 +304,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BB1D3D533CB055AE1B75DCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-backdoor-backdoorUITests/Pods-backdoor-backdoorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-backdoor-backdoorUITests/Pods-backdoor-backdoorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-backdoor-backdoorUITests/Pods-backdoor-backdoorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5611771335247D1EB54CB906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-backdoor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FDFE2764AF8F03F8621EFEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-backdoorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB4AF8C9E8ADA77266C6AAA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-backdoor/Pods-backdoor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-backdoor/Pods-backdoor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-backdoor/Pods-backdoor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D086F2B10890D8223C893692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-backdoor-backdoorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9D9F8F32A83146200676B0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D9F9012A83146200676B0C /* GameScene.swift in Sources */,
-				A9D9F9032A83146200676B0C /* GameViewController.swift in Sources */,
-				A9D9F8FB2A83146200676B0C /* AppDelegate.swift in Sources */,
+				A944941C2A85A4EC00261B15 /* GameScene.swift in Sources */,
+				A944941E2A85A4EC00261B15 /* AppDelegate.swift in Sources */,
+				A944941F2A85A4EC00261B15 /* GameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +586,14 @@
 		};
 		A9D9F9252A83146500676B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7CA23C73F2D84A87E9F8EB /* Pods-backdoor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "accept or die";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,12 +615,14 @@
 		};
 		A9D9F9262A83146500676B0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51194E3CDD7CB89E52D51C6 /* Pods-backdoor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "accept or die";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -492,6 +644,7 @@
 		};
 		A9D9F9282A83146500676B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED372D82C54F3C52CE7C1F0A /* Pods-backdoorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		A9D9F9292A83146500676B0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82E577221CDEA93D94A2AC7 /* Pods-backdoorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +684,7 @@
 		};
 		A9D9F92B2A83146500676B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A637390772E6675C643DFF4 /* Pods-backdoor-backdoorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +702,7 @@
 		};
 		A9D9F92C2A83146500676B0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E3FD1EA91ADE00E43A4818 /* Pods-backdoor-backdoorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
