@@ -1,0 +1,6 @@
+framework module Pods_backdoor_backdoorUITests {
+  umbrella header "Pods-backdoor-backdoorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
